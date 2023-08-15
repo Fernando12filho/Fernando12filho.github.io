@@ -1,0 +1,133 @@
+
+body{
+    font-family: 'Outfit', sans-serif;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8%;
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    align-items: center;
+    padding-top: 25px;
+    border-radius: 15px;
+    height: 600px;
+    width: 345px ;
+}
+#imagemNFT{
+    border-radius: 15px;
+    height: 300px;
+    width: 84.5%;
+    background-image: url("/images/image-equilibrium.jpg");
+    background-size: cover;
+}
+.imagem{
+    border-radius: 15px;
+    height: 300px;
+    width: 100%;  
+
+}
+
+.imagem:hover{
+    background-color: hsl(215, 51%, 70%, 0.7);
+    background-image: url("/images/icon-view.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description{
+    color: white;
+    width: 84.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description h1{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.description h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.description p{
+    color: hsl(215, 51%, 70%);
+}
+.cardEnd{
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+span{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color:hsl(215, 32%, 27%);
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#profilePicture{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#icon{
+    height: 17px;
+    width: auto;
+    padding-right: 5px;
+}
+
+#iconRight{
+    justify-content: flex-end;
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#iconView{
+    width: 45px;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    right: 48.5%;
+}
